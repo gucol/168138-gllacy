@@ -21,3 +21,129 @@ h2 {
 	font-weight: 500;
 	text-decoration: underline;
 }
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/*HEADER*/
+.index-logo {
+	float: left;
+}
+
+.main-navigation {
+	float: left;
+	width: 530px;
+}
+
+.main-navigation li {
+	display: inline;
+	width: 370px;
+}
+
+.catalog-nav, .user-search, .login-window {
+	display: none;
+}
+
+.user-block {
+	width: 280px;
+	float: right;
+}
+
+/*INDEX*/
+.index-main {
+	padding-top: 390px;
+}
+
+.slides {
+	width: 680px;
+	display: block;
+	margin: 0 auto;
+}
+
+.slide-2, .slide-3 {
+	display: none;
+}
+
+.banner, 
+.news-and-mailing div {
+	width: 560px;
+}
+
+.left-column {
+	float: left;
+}
+
+.right-column {
+	float: right;
+}
+
+.hits {
+	padding-top: 240px;
+}
+
+.hit {
+	width: 268px;
+	display: inline-block;
+}
+
+.seo p {
+	width: 470px;
+	display: inline-block;
+}
+
+.map {
+	padding-top: 330px;
+}
+
+/*CATALOG*/
+.catalog-main {
+	padding-top: 200px;
+}
+
+.breadcrumbs li {
+	display: inline;
+}
+
+.filters h3 {
+	display: inline-block;
+}
+
+.products {
+	font-size: 0px;
+}
+
+.product {
+	width: 270px;
+	display: inline-block;
+}
+
+.paginator {
+	float: right;
+	display: block;
+}
+
+/*FOOTER*/
+.footer-social {
+	width: 190px;
+	float: left;
+}
+
+.footer-links {
+	width: 340px;
+	float: left;
+}
+
+.footer-copyright {
+	width: 200px;
+	float: right;
+}

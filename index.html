@@ -15,7 +15,7 @@
       			</div>
 				<ul>
 					<li><a href="#">Каталог</a>
-						<ul>
+						<ul class="catalog-nav">
 							<li><a href="#">Новинки</a></li>
 							<li><a href="#">Сливочное</a></li>
 							<li><a href="#">Щербеты</a></li>
@@ -49,8 +49,22 @@
 		</div>
 	</header>
 
-	<main class="container">
+	<main class="index-main container">
 		<section class="slider">
+	        <div class="slides">
+	            <div class="slide slide-1">
+	                <p>Пломбир с помадкой<br>и клубничный щербет</p>
+	                <a href="#">Давайте оба!</a>
+	            </div>
+	            <div class="slide slide-2">
+	                <p>Шоколадный пломбир<br>и лимонный сорбет</p>
+	                <a href="#">Давайте оба!</a>
+	            </div>
+	            <div class="slide slide-3">
+	                <p>Крем-брюле и пломбир<br>с малиновым джемом</p>
+	                <a href="#">Давайте оба!</a>
+	            </div>
+	        </div>			
 	        <input id="btn-1" name="toggle" type="radio" checked>
 	        <input id="btn-2" name="toggle" type="radio">
 	        <input id="btn-3" name="toggle" type="radio">
@@ -59,28 +73,15 @@
 	            <label for="btn-2"></label>
 	            <label for="btn-3"></label>
 	        </div>
-	        <div class="slides">
-	            <div class="slide">
-	                <p>Пломбир с помадкой<br>и клубничный щербет</p>
-	                <a href="#">Давайте оба!</a>
-	            </div>
-	            <div class="slide">
-	                <p>Шоколадный пломбир<br>и лимонный сорбет</p>
-	                <a href="#">Давайте оба!</a>
-	            </div>
-	            <div class="slide">
-	                <p>Крем-брюле и пломбир<br>с малиновым джемом</p>
-	                <a href="#">Давайте оба!</a>
-	            </div>
-	        </div>
 		</section>
+
 		<section class="banners">
-			<div>
+			<div class="banner left-column">
 				<p><b>Малинка даром!</b></p>
 				<p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
 				<a href="#">Хочу варенье!</a>
 			</div>
-			<div>
+			<div class="banner right-column">
 				<p><b>Шоколадки даром!</b></p>
 				<p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
 				<a href="">Хочу шоколадки!</a>
@@ -142,7 +143,8 @@
 			</div>
 		</section>
 	</main>
-	<footer class="main-footer">
+
+	<footer class="main-footer container clerfix">
 		<div class="footer-social">
             <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
             <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
@@ -161,6 +163,5 @@
         </div>
 	</footer>
 	
-
   </body>
 </html>
